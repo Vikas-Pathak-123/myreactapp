@@ -5,9 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const name = {name:"Vikas Pathak", age:24};
+const lastname = "sohail"
 root.render(
+  // <h1> My name is Vikas</h1>
+  // <h2> Welcome to the react</h2>
   <React.StrictMode>
-    <App />
+    <App
+    name = {name}
+     />
   </React.StrictMode>
 );
 
